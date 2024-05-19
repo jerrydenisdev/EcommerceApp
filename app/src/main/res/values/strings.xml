@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">AppEcommerce</string>
+    <string name="main_auth_welcome">Bienvenido</string>
+
+    <string name="facebook_application_id" translatable="false">767483683457611</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb767483683457611</string>
+    <string name="facebook_client_token">2jmj7l5rSw0yVb/vlWAYkK/YBwk=</string>
+
+<!--fb33815a528222a3d16e34881a4c0589c1 -->
 </resources>
