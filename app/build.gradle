@@ -3,6 +3,7 @@ plugins {
     id 'org.jetbrains.kotlin.android'
     id 'com.google.gms.google-services'
     id 'kotlin-kapt'
+
 }
 
 android {
@@ -61,15 +62,21 @@ dependencies {
 
     // FirebaseUI for Firebase Auth
     implementation 'com.firebaseui:firebase-ui-auth:8.0.0'
+    //implementation 'com.facebook.android:facebook-login:17.0.0'
 
     //FIrebase Bom
     implementation platform('com.google.firebase:firebase-bom:29.0.3')
-    //implementation 'com.facebook.android:facebook-login:latest.release'
+    implementation 'com.facebook.android:facebook-login:latest.release'
+    //implementation 'com.facebook.android:facebook-login:8.1.0'
+
     //Firebase Analytcs
-    implementation 'com.google.firebase:firebase-analytics'
+    //implementation 'com.google.firebase:firebase-analytics'
 
     //FACEBOOK
-    implementation 'com.facebook.android:facebook-android-sdk:[4,5)'
+    implementation 'com.facebook.android:facebook-android-sdk:[8,9)'
+    //implementation 'com.facebook.android:facebook-android-sdk:latest.release'
+    implementation 'com.sromku:simple-fb:4.1.1'
+
 
 
 
