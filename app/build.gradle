@@ -77,7 +77,9 @@ dependencies {
     //implementation 'com.facebook.android:facebook-android-sdk:latest.release'
     implementation 'com.sromku:simple-fb:4.1.1'
 
-
+    //GLIDE
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
 
 
     //VIEWMODEL
